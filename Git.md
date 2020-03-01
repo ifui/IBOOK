@@ -4,11 +4,20 @@
 `git config --global user.name "ifui"`
 `git config --global user.email ifui@foxmail.com`
 
+## 查看配置信息
+`git config --list`
+
 ## 初始化仓库
 `git init`
 
 ## 添加新文件
 `git add <filename>`
+
+## 添加远程仓库
+`git remote add origin https://github.com/ifui/IBOOK.git`
+`git push -u origin master`
+
+## 
 
 ## 提交版本
 `git commit -m "<string>"`
@@ -37,4 +46,16 @@
 
 - 删除： `git branch -d test`
 
+- 差异： `git diff <source_branch> <target_branch>`
 
+## 标签
+`git tag 1.0.0 <id>`
+
+可用 `git log` 获取ID
+
+## 使用`github`
+
+### 生成 `SSH KEY`
+`ssh-keygen -t rsa -C "ifui@foxmail.com"`
+### 将`id_rsa.pub`里的内容复制到`github`de `SSH KEY`里面去
+`vim ~/.ssh/id_rsa.pub`
