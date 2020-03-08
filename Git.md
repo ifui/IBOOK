@@ -17,8 +17,6 @@
 `git remote add origin https://github.com/ifui/IBOOK.git`
 `git push -u origin master`
 
-## 
-
 ## 提交版本
 `git commit -m "<string>"`
 
@@ -57,5 +55,5 @@
 
 ### 生成 `SSH KEY`
 `ssh-keygen -t rsa -C "ifui@foxmail.com"`
-### 将`id_rsa.pub`里的内容复制到`github`de `SSH KEY`里面去
+### 将`id_rsa.pub`里的内容复制到`github`的 `SSH KEY`里面去
 `vim ~/.ssh/id_rsa.pub`
