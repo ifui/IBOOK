@@ -11,6 +11,7 @@
 ### 配置个人信息
 
 `git config --global user.name "ifui"`
+
 `git config --global user.email ifui@foxmail.com`
 
 ### 查看配置信息
